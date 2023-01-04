@@ -1,5 +1,5 @@
 //import './Header.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -35,7 +35,6 @@ function Header(){
             </NavDropdown>
             <Nav.Link href="#Contato">Contato</Nav.Link>
             <Nav.Link href="#deets">Sala virtual</Nav.Link>
-           
           </Nav>
         </Navbar.Collapse>
       </Container>
