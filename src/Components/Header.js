@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from './imagens/Coca-Cola_logo.png'
+import logo from './imagens/teste2.png'
 function Header(){
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -16,11 +16,11 @@ function Header(){
         alt="logo"
         src= {logo}
         style={{
-          height: 40,
-          width: 110
+          height: 30,
+          width: 200
         }}
       />
-     teste
+     {/*teste */}
     </NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
