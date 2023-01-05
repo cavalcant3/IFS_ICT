@@ -6,7 +6,7 @@ import App from './App';
 //<App />
 import Header from './Components/Header';
 import FirstSection from './Components/FirstSection';
-
+import AboutTheProject from './Components/AboutTheProject';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +17,10 @@ root.render(
     <section>
     <FirstSection />
     </section>
+   
+     <AboutTheProject />
     
+   
    
   </React.StrictMode>
 );
