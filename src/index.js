@@ -7,21 +7,24 @@ import App from './App';
 import Header from './Components/Header';
 import FirstSection from './Components/FirstSection';
 import AboutTheProject from './Components/AboutTheProject';
-
+import CardComponent from './Components/CardComponent'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
+
   //Aqui listamos os componentes para renderizar na tela
   <React.StrictMode>
-    <Header />
     <section>
-    <FirstSection />
+    <Header />
     </section>
-   
-     <AboutTheProject />
-    
-   
-   
+    <section>
+      <FirstSection />
+    </section>
+    <AboutTheProject />
+    <CardComponent />
+
+
+
+
   </React.StrictMode>
 );
 
