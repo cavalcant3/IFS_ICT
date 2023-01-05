@@ -34,7 +34,7 @@ function Header() {
             <Nav className='navbarrr' >
               <Nav.Link href="#Inicio" style={{ color: '#ffff' }}>Inicio</Nav.Link>
               <NavDropdown title="Cursos" style={{ color: '#ffff' }} id="collasible-nav-dropdown" >
-                <NavDropdown.Item href="#action/3.1">Inteligência artificial</NavDropdown.Item>
+                <NavDropdown.Item href="/#cursos">Inteligência artificial</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#Contato" style={{ color: '#ffff' }}>Contato</Nav.Link>
               <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>

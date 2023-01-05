@@ -14,7 +14,7 @@ function FirstSection() {
             
           />
           <Carousel.Caption>
-            <h3 className='titulo'>First slide label</h3>
+            <h3 className='titulo'>teste</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>

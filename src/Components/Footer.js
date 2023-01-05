@@ -5,14 +5,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from './imagens/teste2.png'
 //import './Header.css'
 function Header() {
   return (
     //<Container class="navbar-fixed-top">
       <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container style={{ paddingLeft: '40%' }}>
+        <Container style={{ paddingLeft: '36%' }}>
 
           <div style={{display: 'flex', alignItems: 'center'}}>
           <NavbarBrand href="#home" className="justify-content-center">
@@ -26,28 +25,16 @@ function Header() {
               }}
             />
             </div>
-            {/*teste */}
+            <p style={{color: '#ffff', fontSize: '10px', paddingLeft:'50px'}}>© 2023 Labic-IFS Copyright</p>
           </NavbarBrand>
           <Container>
 
         </Container>
           </div>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-
-
-            </Nav>
-            
-          </Navbar.Collapse>
-
+          
 
         </Container>
       </Navbar>
-
-   // </Container>
-
-
   );
 }
 export default Header;

@@ -4,7 +4,7 @@ import inteligenciaCard from './imagens/inteligenciaCard.jpg'
 
 function CardComponent() {
     return (
-        <div className='Container' style={{ backgroundColor: '#f6f6f6', paddingTop: '70px', paddingBottom: '70px' }}>
+        <div href="#cursos" className='Container' style={{ backgroundColor: '#f6f6f6', paddingTop: '70px', paddingBottom: '70px' }}>
 
             <div style={{ padding: '30px', display: 'flex', justifyContent: 'center' }}>
                 <h3 style={{ fontSize: '' }}><strong>Cursos e inscrições</strong></h3>
@@ -21,7 +21,7 @@ function CardComponent() {
                     </Card.Body>
 
                     <Card.Body>
-                        <Card.Link href="#" class="btn btn-success">Saiba mais</Card.Link>
+                        <Card.Link href="https://e.huawei.com/en/talent/#ict-academy/news-details?consultationId=509" class="btn btn-success">Saiba mais</Card.Link>
                     </Card.Body>
                 </Card>
             </div>
