@@ -8,6 +8,7 @@ import Header from './Components/Header';
 import FirstSection from './Components/FirstSection';
 import AboutTheProject from './Components/AboutTheProject';
 import CardComponent from './Components/CardComponent'
+import Footer from './Components/Footer'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
@@ -21,6 +22,7 @@ root.render(
     </section>
     <AboutTheProject />
     <CardComponent />
+    <Footer />
 
 
 
