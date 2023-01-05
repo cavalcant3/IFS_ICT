@@ -37,7 +37,10 @@ function Header() {
                 <NavDropdown.Item href="#action/3.1">Inteligência artificial</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#Contato" style={{ color: '#ffff' }}>Contato</Nav.Link>
-              <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>Sala virtual</Nav.Link>
+              <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>
+              <Button variant="success">Sala virtual</Button>{' '}
+                
+                </Nav.Link>
             </Nav>
           </Navbar.Collapse>
 
