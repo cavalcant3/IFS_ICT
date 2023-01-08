@@ -2,11 +2,12 @@ import { Route, Routes } from "react-router-dom"
 import FirstSection from "./Components/FirstSection";
 import Header from "./Components/Header";
 import AboutTheProject from './Components/AboutTheProject';
-import CardComponent from './Components/CardComponent'
-import Coordination from './Components/Coordination'
-import Footer from './Components/Footer'
-import CourseBanner from './Components/CoursePage/CourseBanner'
-import AboutCourse from './Components/CoursePage/AboutCourse'
+import CardComponent from './Components/CardComponent';
+import Coordination from './Components/Coordination';
+import Footer from './Components/Footer';
+import CourseBanner from './Components/CoursePage/CourseBanner';
+import AboutCourse from './Components/CoursePage/AboutCourse';
+import ProfessoresEbolsistas from './Components/CoursePage/ProfessoresEbolsistas';
 function App() {
   return (
     <Routes>
@@ -17,7 +18,7 @@ function App() {
 
       <Route path="/cursos" element={[<Header />,
       <CourseBanner />, <AboutCourse />,
-      <Coordination />,
+      <ProfessoresEbolsistas />,
       <Footer />]} />
     </Routes>
   );
