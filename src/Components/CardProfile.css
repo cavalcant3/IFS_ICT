@@ -1,34 +1,34 @@
 .CardProfile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  
-  .CardProfile img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: 10px;
-  }
-  
-  .CardProfile h1 {
-    margin: 20px 0 10px;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-  }
-  
-  .CardProfile p {
-    margin: 0;
-    padding: 0 20px;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.CardProfile img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.CardProfile h1 {
+  margin: 20px 0 10px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.CardProfile p {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}

@@ -10,31 +10,31 @@ import logo from './imagens/teste2.png'
 function Header() {
   return (
     //<Container class="navbar-fixed-top">
-      <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container style={{ paddingLeft: '36%' }}>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container style={{ paddingLeft: '36%' }}>
 
-          <div style={{display: 'flex', alignItems: 'center'}}>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
           <NavbarBrand href="#home" className="justify-content-center">
             <div>
-            <img
-              alt="logo"
-              src={logo}
-              style={{
-                height: 30,
-                width: 200
-              }}
-            />
+              <img
+                alt="logo"
+                src={logo}
+                style={{
+                  height: 30,
+                  width: 200
+                }}
+              />
             </div>
-            <p style={{color: '#ffff', fontSize: '10px', paddingLeft:'50px'}}>© 2023 Labic-IFS Copyright</p>
+            <p style={{ color: '#ffff', fontSize: '10px', paddingLeft: '50px' }}>© 2023 Labic-IFS Copyright</p>
           </NavbarBrand>
           <Container>
 
-        </Container>
-          </div>
-          
+          </Container>
+        </div>
 
-        </Container>
-      </Navbar>
+
+      </Container>
+    </Navbar>
   );
 }
 export default Header;
