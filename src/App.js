@@ -5,6 +5,7 @@ import AboutTheProject from './Components/AboutTheProject';
 import CardComponent from './Components/CardComponent'
 import Coordination from './Components/Coordination'
 import Footer from './Components/Footer'
+import CourseBanner from './Components/CoursePage/CourseBanner'
 function App() {
   return (
 <Routes>
@@ -14,8 +15,8 @@ function App() {
     <Footer/>]} />
 
 <Route path="/cursos" element={[<Header />,
-    <AboutTheProject />,
-    <CardComponent />, <Coordination />,
+    <CourseBanner />,<AboutTheProject />,
+     <Coordination />,
     <Footer/>]} />
 </Routes>
   );
