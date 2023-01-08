@@ -9,7 +9,7 @@ function FirstSection() {
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1642650350264-19d893dbb258?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            src="https://www-file.huawei.com/-/media/corp2020/seeds-for-the-future/image/competitions/2022/competition-ict-cover.jpg"
             alt="First slide"
             
           />
