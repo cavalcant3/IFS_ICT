@@ -6,7 +6,7 @@ function Coordination(params) {
             <h2 style={{ textAlign: 'center' }}><strong>Coordenação</strong></h2>
             <div style={{ display: "flex", justifyContent: 'center', paddingTop: '20px' }}>
 
-                {/*centralizar a foto ou acima ou na esquerda do card */}
+                
                 <CardProfile
                     name="Stephany Kamarry"
                     profileImageUrl={Step}
