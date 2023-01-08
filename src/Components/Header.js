@@ -14,7 +14,7 @@ function Header() {
       <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container style={{ paddingLeft: '50px', paddingRight: '50px' }}>
 
-          <NavbarBrand href="#home">
+          <NavbarBrand href="/">
             <img
               alt="logo"
               src={logo}
