@@ -1,7 +1,10 @@
 import CardProfile from "../CardProfile";
 import Step from '../imagens/Step.jpg';
 import './ProfessoresEbolsistas.css'
-
+import catuxe from '../imagens/catuxe.jpg';
+import ItuanEduao from '../imagens/ItuanEduao.jpg';
+import augusto from '../imagens/augusto.jpg';
+import gabriel from '../imagens/gabriel.jpg';
 function ProfessoresEbolsistas() {
 
     return (
@@ -10,57 +13,37 @@ function ProfessoresEbolsistas() {
             <div className="containerCardProfile">
                 <div className="colum33" style={{}}>
                     <CardProfile
-                        name="Professor2"
+                        name="Stephanie"
                         profileImageUrl={Step}
                         bio="Professor2 geral" />
                 </div>
                 <div className="colum33">
                     <CardProfile
-                        name="Professor2"
-                        profileImageUrl={Step}
+                        name="Catuxe"
+                        profileImageUrl={catuxe}
                         bio="Professor2 geral" />
                 </div>
                 <div className="colum33">
                     <CardProfile
-                        name="Professor3"
-                        profileImageUrl={Step}
+                        name="Ituan Eduão"
+                        profileImageUrl={ItuanEduao}
                         bio="Professor2 geral" />
                 </div>
                 <div className="colum33" style={{}}>
                     <CardProfile
-                        name="Professor2"
-                        profileImageUrl={Step}
+                        name="Augusto"
+                        profileImageUrl={augusto}
                         bio="Professor2 geral" />
                 </div>
-                <div className="colum33">
-                    <CardProfile
-                        name="Professor2"
-                        profileImageUrl={Step}
-                        bio="Professor2 geral" />
-                </div>
-                <div className="colum33">
-                    <CardProfile
-                        name="Professor3"
-                        profileImageUrl={Step}
-                        bio="Professor2 geral" />
-                </div>
-                <div className="colum33">
-                    <CardProfile
-                        name="Professor3"
-                        profileImageUrl={Step}
-                        bio="Professor2 geral" />
-                </div>
-                
-
-
+               
             </div>
             <h2 style={{ textAlign: 'center' }}><strong>Bolsistas</strong></h2>
             <div className="containerCardProfile">
                 
             <div className="colum33">
                     <CardProfile
-                        name="Professor2"
-                        profileImageUrl={Step}
+                        name="Gabriel Nascimento"
+                        profileImageUrl={gabriel}
                         bio="Professor2 geral" />
                 </div>
                 <div className="colum33">
