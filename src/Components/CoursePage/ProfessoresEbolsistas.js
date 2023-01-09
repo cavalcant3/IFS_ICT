@@ -5,6 +5,7 @@ import catuxe from '../imagens/catuxe.jpg';
 import ItuanEduao from '../imagens/ItuanEduao.jpg';
 import augusto from '../imagens/augusto.jpg';
 import gabriel from '../imagens/gabriel.jpg';
+import joao from '../imagens/joao.jpeg';
 function ProfessoresEbolsistas() {
 
     return (
@@ -35,30 +36,35 @@ function ProfessoresEbolsistas() {
                         profileImageUrl={augusto}
                         bio="Professor2 geral" />
                 </div>
-               
+
             </div>
             <h2 style={{ textAlign: 'center' }}><strong>Bolsistas</strong></h2>
             <div className="containerCardProfile">
-                
-            <div className="colum33">
+                <div className="colum33">
+                    <CardProfile
+                        name="Matheus Cavalcante"
+                        profileImageUrl={gabriel}
+                        bio="Aluno do Instituto Federal de Sergipe" />
+                </div>
+                <div className="colum33">
                     <CardProfile
                         name="Gabriel Nascimento"
                         profileImageUrl={gabriel}
-                        bio="Professor2 geral" />
+                        bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
                 <div className="colum33">
                     <CardProfile
-                        name="Professor3"
-                        profileImageUrl={Step}
-                        bio="Professor2 geral" />
+                        name="João"
+                        profileImageUrl={joao}
+                        bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
                 <div className="colum33">
                     <CardProfile
-                        name="Professor3"
+                        name="Eddie"
                         profileImageUrl={Step}
                         bio="Professor2 geral" />
                 </div>
-                
+
             </div>
         </div>
     );

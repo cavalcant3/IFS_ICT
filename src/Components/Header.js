@@ -8,6 +8,7 @@ import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useNavigate } from 'react-router-dom';
 import logo from './imagens/teste2.png'
+import './Header.css'
 //import './Header.css'
 function Header() {
   let navigate = useNavigate();
@@ -38,7 +39,7 @@ function Header() {
             <Nav.Link onClick={() =>{
                 navigate("/");
               }} style={{ color: '#ffff' }}>Inicio</Nav.Link>
-            <NavDropdown title="Cursos" style={{ color: '#ffff' }} id="collasible-nav-dropdown" >
+            <NavDropdown style={{ color: '#ffff' }} title="Cursos"  id="collasible-nav-dropdown" >
               <NavDropdown.Item 
               onClick={() =>{
                 navigate("/cursos");
