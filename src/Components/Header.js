@@ -6,10 +6,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useNavigate } from 'react-router-dom';
 import logo from './imagens/teste2.png'
 //import './Header.css'
 function Header() {
+  let navigate = useNavigate();
   return (
+    
     //<Container class="navbar-fixed-top">
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container style={{ paddingLeft: '50px', paddingRight: '50px' }}>
@@ -32,11 +35,16 @@ function Header() {
 
           </Nav>
           <Nav className='navbarrr' >
-            <Nav.Link href="#Inicio" style={{ color: '#ffff' }}>Inicio</Nav.Link>
+            <Nav.Link onClick={() =>{
+                navigate("/");
+              }} style={{ color: '#ffff' }}>Inicio</Nav.Link>
             <NavDropdown title="Cursos" style={{ color: '#ffff' }} id="collasible-nav-dropdown" >
-              <NavDropdown.Item href="/#cursos">Inteligência artificial</NavDropdown.Item>
+              <NavDropdown.Item 
+              onClick={() =>{
+                navigate("/cursos");
+              }}>Inteligência artificial</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#Contato" style={{ color: '#ffff' }}>Contato</Nav.Link>
+            <Nav.Link href="mailto:email@gmail.com" style={{ color: '#ffff' }}>Contato</Nav.Link>
             <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>
               <Button variant="success">Sala virtual</Button>{' '}
 
