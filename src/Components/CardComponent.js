@@ -1,8 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import inteligenciaCard from './imagens/inteligenciaCard.jpg'
-
+import { useNavigate } from 'react-router-dom';
 
 function CardComponent() {
+    let navigate = useNavigate();
     return (
          <div href="#cursos" className='Container' style={{ backgroundColor: '#f6f6f6', paddingTop: '70px', paddingBottom: '70px' }}>
 
@@ -21,7 +22,11 @@ function CardComponent() {
                      </Card.Body>
 
                      <Card.Body>
-                         <Card.Link href="https://e.huawei.com/en/talent/#ict-academy/news-details?consultationId=509" class="btn btn-success">Saiba mais</Card.Link>
+                         <Card.Link 
+                         onClick={() =>{
+                            navigate("/cursos");
+                          }}
+                         Link to class="btn btn-success">Saiba mais</Card.Link>
                      </Card.Body>
                  </Card>
              </div>
