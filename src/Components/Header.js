@@ -23,7 +23,7 @@ function Header() {
             alt="logo"
             src={logo}
             style={{
-              height: '53px',
+              height: '50px',
               
             }}
           />
