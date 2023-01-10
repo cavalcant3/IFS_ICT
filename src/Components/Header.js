@@ -9,12 +9,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useNavigate } from 'react-router-dom';
 import logo from './imagens/teste2.png'
 import './Header.css'
-//import './Header.css'
 function Header() {
   let navigate = useNavigate();
   return (
-    
-    //<Container class="navbar-fixed-top">
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container style={{ paddingLeft: '50px', paddingRight: '50px' }}>
 
@@ -24,10 +21,9 @@ function Header() {
             src={logo}
             style={{
               height: '50px',
-              
+
             }}
           />
-          {/*teste */}
         </NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -36,14 +32,14 @@ function Header() {
 
           </Nav>
           <Nav className='navbarrr' >
-            <Nav.Link onClick={() =>{
-                navigate("/");
-              }} style={{ color: '#ffff' }}>Inicio</Nav.Link>
-            <NavDropdown style={{ color: '#ffff' }} title="Cursos"  id="collasible-nav-dropdown" >
-              <NavDropdown.Item 
-              onClick={() =>{
-                navigate("/cursos");
-              }}>Inteligência artificial</NavDropdown.Item>
+            <Nav.Link onClick={() => {
+              navigate("/");
+            }} style={{ color: '#ffff' }}>Inicio</Nav.Link>
+            <NavDropdown style={{ color: '#ffff' }} title="Cursos" id="collasible-nav-dropdown" >
+              <NavDropdown.Item
+                onClick={() => {
+                  navigate("/cursos");
+                }}>Inteligência artificial</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="mailto:email@gmail.com" style={{ color: '#ffff' }}>Contato</Nav.Link>
             <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>
@@ -52,14 +48,8 @@ function Header() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-
-
       </Container>
     </Navbar>
-
-    // </Container>
-
-
   );
 }
 export default Header;
