@@ -1,0 +1,10 @@
+.TestandoAqui{
+    padding: 70px;
+}
+
+.TestandoAqui .containerFooter{
+    display: flex;
+    
+    justify-content: space-evenly;
+
+}

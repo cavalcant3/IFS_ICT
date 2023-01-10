@@ -6,33 +6,44 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import logo from './imagens/teste2.png'
-//import './Header.css'
+import labic from './imagens/labicFooter.jpg'
+import huaweiLogoSolo from './imagens/huaweiLogoSolo.png'
+import ifsLogoSolo from './imagens/ifsLogoSolo.png'
+import './Footer.css'
 function Header() {
   return (
-    //<Container class="navbar-fixed-top">
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container style={{ paddingLeft: '36%' }}>
+    <Navbar className='TestandoAqui' collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container className='containerFooter'>
+        <div>
+            <img
+              alt="logo"
+              src={huaweiLogoSolo}
+              style={{
+                height: '55px',
 
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-          <NavbarBrand href="#home" className="justify-content-center">
-            <div>
-              <img
-                alt="logo"
-                src={logo}
-                style={{
-                  height: '55px',
-        
-                }}
-              />
-            </div>
-            <p style={{ color: '#ffff', fontSize: '10px', paddingLeft: '50px' }}>© 2023 Labic-IFS Copyright</p>
-          </NavbarBrand>
-          <Container>
+              }}
+            />
+          </div>
+          <div>
+            <img
+              alt="labic"
+              src={ifsLogoSolo}
+              style={{
+                height: '80px',
 
-          </Container>
-        </div>
+              }}
+            />
+          </div>
+          <div>
+            <img
+              alt="labic"
+              src={labic}
+              style={{
+                height: '110px',
 
-
+              }}
+            />
+          </div>
       </Container>
     </Navbar>
   );
