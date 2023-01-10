@@ -20,8 +20,8 @@ function Header() {
                 alt="logo"
                 src={logo}
                 style={{
-                  height: 30,
-                  width: 200
+                  height: '55px',
+        
                 }}
               />
             </div>
