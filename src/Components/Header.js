@@ -28,8 +28,6 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-
-
           </Nav>
           <Nav className='navbarrr' >
             <Nav.Link onClick={() => {
@@ -43,7 +41,7 @@ function Header() {
             </NavDropdown>
             <Nav.Link href="mailto:email@gmail.com" style={{ color: '#ffff' }}>Contato</Nav.Link>
             <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>
-              <Button variant="success">Sala virtual</Button>{' '}
+              <Button variant="success">Inscreva-se</Button>{' '}
 
             </Nav.Link>
           </Nav>
