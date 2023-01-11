@@ -1,47 +1,18 @@
-.Banner {
-    /* padding-top: 90px;*/
+.Banner{
+    position: relative;
+    top: 70px;
+   width: 100%;
+    height: 200px;
+    background-color: #212529;
     display: flex;
     justify-content: center;
-    background-image: url('https://s3.amazonaws.com/bucket.sankhya/sankhya/wp-content/uploads/2021/05/14114208/inteligencia-artificial.png');
-    padding-top: 250px;
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-
-    /* filter: brightness(50%);*/
-
-}
-
-.Container {
-    display: block;
-    justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 500px;
-}
-
-.titulo {
-
-    color: white;
-    margin: 0 0 25px;
-    padding: 0;
-    line-height: 1;
-    font-size: 30px;
-    font-weight: 700;
     text-align: center;
 
-
 }
-
-.texto {
+.Banner .Container .titulo{
+    
     color: white;
-    display: block;
-    font-size: 20px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    font-weight: 500;
-
+    background-color: #212529;
+  
 }
