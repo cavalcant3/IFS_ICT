@@ -1,0 +1,8 @@
+.testee1234{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+}
+.secaoo{
+    flex: 1;
+}
