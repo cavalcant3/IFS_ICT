@@ -6,6 +6,7 @@ import ItuanEduao from '../imagens/ItuanEduao.jpg';
 import augusto from '../imagens/augusto.jpg';
 import gabriel from '../imagens/gabriel.jpg';
 import joao from '../imagens/joao.jpeg';
+import eddie from '../imagens/eddiePerfil.jpeg'
 function ProfessoresEbolsistas() {
 
     return (
@@ -61,8 +62,8 @@ function ProfessoresEbolsistas() {
                 <div className="colum33">
                     <CardProfile
                         name="Eddie"
-                        profileImageUrl={Step}
-                        bio="Professor2 geral" />
+                        profileImageUrl={eddie}
+                        bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
 
             </div>
