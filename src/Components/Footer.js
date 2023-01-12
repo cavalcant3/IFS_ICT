@@ -9,6 +9,7 @@ import logo from './imagens/teste2.png'
 import labic from './imagens/labicFooter.jpg'
 import huaweiLogoSolo from './imagens/huaweiLogoSolo.png'
 import ifsLogoSolo from './imagens/ifsLogoSolo.png'
+import dinoveFooter from './imagens/dinoveFooter.png'
 import './Footer.css'
 function Header() {
   return (
@@ -40,6 +41,16 @@ function Header() {
               src={labic}
               style={{
                 height: '110px',
+
+              }}
+            />
+          </div>
+          <div>
+            <img
+              alt="dinoveLogo"
+              src={dinoveFooter}
+              style={{
+                height: '80px',
 
               }}
             />
