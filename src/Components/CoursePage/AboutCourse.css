@@ -1,11 +1,4 @@
-.head-text {
-    position: relative;
-}
-
-.text-on-image {
-    position: absolute !important;
-    right: 50% !important;
-    ;
-    left: 50% !important;
-    bottom: 15%;
+.teste12 .teste12334 .secaoo {
+    flex-basis: 30%;
+    flex-grow: 1;
 }
