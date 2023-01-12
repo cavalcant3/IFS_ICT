@@ -3,6 +3,7 @@ import { Tab, Tabs } from 'react-bootstrap';
 import DescriptionComponent from './DescriptionComponent'
 
 function AboutCourse() {
+    {/* Tela de abas para informações dos cursos */}
     return (
         <div style={{ width: '100%', paddingLeft: '100px', paddingRight: '100px' }}>
             <Tabs
