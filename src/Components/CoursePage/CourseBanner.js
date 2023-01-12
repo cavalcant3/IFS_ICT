@@ -20,7 +20,8 @@ function CourseBanner() {
         <span >
           <p style={{color:'#a2a2a2', display: 'block', marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px', textAlign: 'justify', width: '750px' }}>
           Inteligência Artificial (IA) é uma nova ciência técnica para a pesquisa e desenvolvimento de teorias, métodos, tecnologias e sistemas de aplicação para simular
-           e estender a inteligência humana. A inteligência artificial é um ramo da ciência da computação. Ele tenta compreender a essência da inteligência e produzir uma nova máquina inteligente que pode responder de maneira semelhante à inteligência humana. A pesquisa neste campo inclui robótica, reconhecimento de linguagem, reconhecimento de imagem,
+           e estender a inteligência humana. A inteligência artificial é um ramo da ciência da computação. Ele tenta compreender a essência da inteligência e produzir uma nova máquina inteligente
+            que pode responder de maneira semelhante à inteligência humana. A pesquisa neste campo inclui robótica, reconhecimento de linguagem, reconhecimento de imagem,
            processamento de linguagem natural e sistemas especialistas.
           </p>
           <p style={{color:'#a2a2a2', display: 'block', marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px', textAlign: 'justify', width: '750px' }}>
