@@ -2,3 +2,7 @@
     flex-basis: 30%;
     flex-grow: 1;
 }
+#uncontrolled-tab-example-tab-home, #uncontrolled-tab-example-tab-infoAdicional, #uncontrolled-tab-example-tab-resultados{
+    color: black;
+    font-weight: 500;
+}
