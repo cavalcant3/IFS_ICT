@@ -9,7 +9,8 @@ import CourseBanner from './Components/CoursePage/CourseBanner';
 import AboutCourse from './Components/CoursePage/AboutCourse';
 import ProfessoresEbolsistas from './Components/CoursePage/ProfessoresEbolsistas';
 import MatriculasAbertas from './Components/CoursePage/MatriculasAbertas';
-{/*<MatriculasAbertas />,*/}
+import AditionalInformation from './Components/CoursePage/AditionalInformation';
+{/*<MatriculasAbertas />,*/ }
 function App() {
   return (
     <Routes>
@@ -20,9 +21,14 @@ function App() {
 
       <Route path="/cursos" element={[<Header />,
       <CourseBanner />, <AboutCourse />,
-      <ProfessoresEbolsistas />, 
+      <ProfessoresEbolsistas />,
       <Footer />]} />
+
+      <Route path="/testando" element={<AditionalInformation />}>
+
+      </Route>
     </Routes>
+
   );
 }
 
