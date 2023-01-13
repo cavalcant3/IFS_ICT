@@ -2,7 +2,8 @@ import './DescriptionComponent.css'
 
 function DescriptionComponent() {
     return (
-        <div className="testee1234" style={{ paddingLeft: '50px' }}>
+        <div className="testee1234" style={{ paddingLeft: '50px', paddingBottom:'80px'}}>
+           
             <div className="secaoo">
                 <h3 style={{ fontSize: '18px' }}><strong>Inteligência Artificial</strong></h3>
                 <p style={{ lineHeight: '1.6', fontSize: '16px', color: '#a2a2a2', width: '500px' }}>Visão Geral, Introdução ao Colab e revisão
