@@ -1,3 +1,26 @@
-#collasible-nav-dropdown{
+#collasible-nav-dropdown {
     color: white;
+}
+
+.ContainerNavbar {
+    padding: 10px;
+}
+
+.LogoNavbar {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 430px) {
+    .LogoNavbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        margin-left: 50px;
+        
+    }
 }

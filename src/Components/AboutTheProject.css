@@ -9,3 +9,35 @@
   left: 50% !important;
   bottom: 15%;
 }
+p{
+  width: 750px;
+}
+.ContainerAboutTheProject{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media  screen and (max-width: 1025px) {
+  .ImagemCursoCard  {
+    display: none;
+  }
+  p{ 
+    padding: 0;
+    width: 550px;
+  }
+}
+
+@media  screen and (max-width: 430px) {
+  .ImagemCursoCard  {
+    display: none;
+  }
+  p{ 
+    padding: 0;
+    width: 350px;
+    
+  }
+  div{
+    padding-left: 20px;
+  }
+}

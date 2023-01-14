@@ -2,17 +2,3 @@
     width: 1327px;
     height: 746px;
 }
-
-.carousel-caption {
-    margin-top: 70px;
-    min-height: 500px;
-
-}
-
-.carousel-caption>h3 {
-    font-size: 60px;
-}
-
-.carousel-caption>p {
-    font-size: 25px;
-}

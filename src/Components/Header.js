@@ -8,22 +8,24 @@ import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useNavigate } from 'react-router-dom';
 import logo from './imagens/teste2.png'
+import LogoHuawei from './imagens/huaweiLogoSolo.png'
+import LogoIfs from './imagens/ifsLogoSolo.png'
 import './Header.css'
 function Header() {
   let navigate = useNavigate();
   return (
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container style={{ paddingLeft: '50px', paddingRight: '50px' }}>
+      <Container className='ContainerNavbar'>
 
         <NavbarBrand href="/">
-          <img
+          <img className='LogoNavbar'
             alt="logo"
-            src={logo}
-            style={{
-              height: '50px',
-
-            }}
+            src={LogoIfs}
           />
+           <img className='LogoNavbar'
+            alt="LogoHuawei"
+            src={LogoHuawei}
+                     />
         </NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
