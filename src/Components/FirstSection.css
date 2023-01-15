@@ -1,7 +1,7 @@
 
 .video_background {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 }
 
 video {
@@ -40,7 +40,7 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    height: 110%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -76,7 +76,7 @@ video {
     }
     .overlay{
         width: 110%;
-        height: 110%;
+        height: 100%;
     }
 
 
