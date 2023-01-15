@@ -1,11 +1,15 @@
 
 
 .TestandoAqui {
+    width: 100%;
     padding: 70px;
+    
+    
 }
 
 .TestandoAqui .containerFooter {
     display: flex;
+    flex-wrap: wrap;
 
     justify-content: space-evenly;
 
@@ -20,7 +24,7 @@
 }
 
 .huaweiLogoSolo {
-    height: 110px;
+    height: 80px;
 }
 .labic{
     height: 110px;
@@ -32,26 +36,30 @@
 
 
 
-
-
-
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 430px) {
     .dinoveFooter {
         height: 60px;
         object-position: bottom;
     }
+
+
 }
+
 
 @media screen and (max-width: 380px) {
     .dinoveFooter {
-        height: 45px;
+        height: 60px;
         object-position: bottom;
     }
+    .TestandoAqui{
+        width: 110%;
+    }
+
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 320px) {
     .huaweiLogoSolo {
-        height: 90px;
+        height: 70px;
 
     }
 
@@ -60,9 +68,10 @@
 
 
     }
+    .TestandoAqui{
+        width: 110%;
+    }
     
-.TestandoAqui{
-    width: 110%;
-}
+
 
 }

@@ -17,10 +17,7 @@ function Header() {
             alt="logo"
             src={huaweiLogoSolo}
             className='huaweiLogoSolo'
-            style={{
-              height: '55px',
-
-            }}
+            
           />
         </div>
         <div>
