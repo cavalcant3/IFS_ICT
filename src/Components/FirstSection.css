@@ -46,26 +46,26 @@ video {
 
 @media screen and (max-width: 430px) {
     .content h1 {
-        font-size: 50px;
+        font-size: 30px;
        
     }
 
     .content p{
-        font-size: 20px;
+        font-size: 16px;
     
     }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
     .content h1 {
-        font-size: 40px;
+        font-size: 30px;
         
        
     }
 
     .content p{
-        font-size: 10px;
+        font-size: 14px;
         
     
     }
@@ -76,6 +76,7 @@ video {
     }
     .overlay{
         width: 110%;
+        height: 110%;
     }
 
 
