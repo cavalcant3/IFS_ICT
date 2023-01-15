@@ -9,7 +9,11 @@
 
 .IntroductionLegend{
     width: 360px;
-    padding: 15px;
+   
+    text-align: center;
+    color: #a2a2a2;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 .card-text{
@@ -18,6 +22,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+@media screen and (max-width: 330px) {
+    .IntroductionLegend{
+         width: 300px;
+        font-size: 14px;
+    }
     
 }
 

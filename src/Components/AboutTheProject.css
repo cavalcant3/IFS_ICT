@@ -33,7 +33,7 @@ ul {
 .item::before {
   content: '\2705';
   position: relative;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 
@@ -61,6 +61,14 @@ ul {
   }
 
   div {
-    padding-left: 20px;
+    
   }
+}
+
+@media screen and (max-width: 330px) {
+  p{
+    width: 280px;
+    
+  }
+
 }

@@ -12,7 +12,7 @@ function CardComponent() {
             <div>
                 <h3 style={{ textAlign: 'center' }}><strong>Cursos e inscrições</strong></h3>
 
-                <p className='IntroductionLegend' style={{ textAlign: 'center', color: '#a2a2a2', lineHeight: '1.6', fontSize: '16px' }}><i>Conheça mais dos cursos oferecidos,
+                <p className='IntroductionLegend' style={{  }}><i>Conheça mais dos cursos oferecidos,
                     professores ministrantes, bolsistas, o cronograma das aulas e datas de inscrições.</i></p>
                 <div className='cardCarrossel' style={{ display: 'flex', justifyContent: 'center' }}>
                     <Card id="sld" style={{ width: '18rem' }}>
