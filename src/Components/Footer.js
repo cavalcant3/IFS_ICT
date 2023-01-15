@@ -25,7 +25,7 @@ function Header() {
         </div>
         <div>
           <img
-            alt="labic"
+            alt="ifsLogoSolo"
             src={ifsLogoSolo}
             className='ifsLogoSolo'
 
@@ -35,7 +35,7 @@ function Header() {
           <img
             alt="labic"
             src={labic}
-            className='huaweiLogoSolo'
+            className='labic'
           />
         </div>
         <div>
