@@ -1,4 +1,57 @@
-.carousel-inner>.carousel-item>img {
-    width: 1327px;
-    height: 746px;
+.video_background {
+    width: 100%;
+    height: 110vh;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 430px) {
+    .content h1 {
+        font-size: 50px;
+       
+    }
+
+    .content p{
+        font-size: 20px;
+    
+    }
+
 }
