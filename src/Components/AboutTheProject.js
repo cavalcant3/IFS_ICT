@@ -25,7 +25,20 @@ function aboutTheProject() {
             aulas remotas, ferramentas de simulação de laboratórios, exercícios e um grupo de apoio para tirar dúvidas
             com professores capacitados e qualificados.
           </p>
+          <br/>
+          
         </span>
+        <div>
+          <h2><strong>Requisitos:</strong></h2>
+
+          <ul >
+            <li className='item'>Acompanhar as aulas online</li>
+            <li className='item'>Disponibilidade no horário proposto</li> 
+            <li className='item'>Dispor de Celular ou Pc</li>
+            <li className='item'>Vontade de aprender</li>
+
+          </ul>
+          </div>
       </span>
 
 

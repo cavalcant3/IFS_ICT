@@ -9,35 +9,58 @@
   left: 50% !important;
   bottom: 15%;
 }
-p{
+
+p {
   width: 750px;
 }
-.ContainerAboutTheProject{
+
+.ContainerAboutTheProject {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@media  screen and (max-width: 1025px) {
-  .ImagemCursoCard  {
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.item{
+  position: relative;
+  margin: 13px 0px;
+  
+}
+.item::before {
+  content: '\2705';
+  position: relative;
+  margin-right: 5px;
+}
+
+
+
+@media screen and (max-width: 1025px) {
+  .ImagemCursoCard {
     display: none;
   }
-  p{ 
+
+  p {
     padding: 0;
     width: 550px;
   }
 }
 
-@media  screen and (max-width: 430px) {
-  .ImagemCursoCard  {
+@media screen and (max-width: 430px) {
+  .ImagemCursoCard {
     display: none;
   }
-  p{ 
+
+  p {
     padding: 0;
     width: 350px;
-    
+
   }
-  div{
+
+  div {
     padding-left: 20px;
   }
 }
