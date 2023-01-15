@@ -12,11 +12,7 @@ function AditionalInformation() {
                     <td>100% Online</td>
 
                 </tr>
-                <tr>
-                    <td className='TitleTable'><strong>Turno</strong></td>
-                <td>Segunda a Sexta - Noite</td>
-
-            </tr>
+                
             <tr>
                 <td className='TitleTable'><strong>Turno</strong></td>
                 <td>Segunda a Sexta - Noite</td>

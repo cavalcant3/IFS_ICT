@@ -1,6 +1,6 @@
 .Banner{
     position: relative;
-    top: 70px;
+    top: 80px;
    width: 100%;
     height: 200px;
     background-color: #212529;
@@ -29,4 +29,24 @@
     ;
     left: 50% !important;
     bottom: 15%;
+  }
+
+  .containerAboutCourse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 70px; 
+  }
+  .outroComponente{
+    flex-direction: column;
+  }
+  .Containerr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
