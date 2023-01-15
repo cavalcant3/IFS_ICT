@@ -1,10 +1,58 @@
-.TestandoAqui{
+.TestandoAqui {
     padding: 70px;
 }
 
-.TestandoAqui .containerFooter{
+.TestandoAqui .containerFooter {
     display: flex;
-    
+
     justify-content: space-evenly;
 
+}
+
+.TestandoAqui .containerFooter div {
+    margin: 5px;
+}
+
+.dinoveFooter {
+    height: 80px;
+}
+
+.huaweiLogoSolo {
+    height: 110px;
+}
+
+.ifsLogoSolo {
+    height: 80px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1130px) {
+    .dinoveFooter {
+        height: 60px;
+        object-position: bottom;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .dinoveFooter {
+        height: 45px;
+        object-position: bottom;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .huaweiLogoSolo {
+        height: 90px;
+
+    }
+
+    .ifsLogoSolo {
+        height: 70px;
+
+
+    }
 }

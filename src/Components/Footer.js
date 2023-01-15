@@ -2,10 +2,7 @@
 
 
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavbarBrand from 'react-bootstrap/NavbarBrand';
-import logo from './imagens/teste2.png'
 import labic from './imagens/labicFooter.jpg'
 import huaweiLogoSolo from './imagens/huaweiLogoSolo.png'
 import ifsLogoSolo from './imagens/ifsLogoSolo.png'
@@ -16,45 +13,38 @@ function Header() {
     <Navbar className='TestandoAqui' collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container className='containerFooter'>
         <div>
-            <img
-              alt="logo"
-              src={huaweiLogoSolo}
-              style={{
-                height: '55px',
+          <img
+            alt="logo"
+            src={huaweiLogoSolo}
+            className='huaweiLogoSolo'
+            style={{
+              height: '55px',
 
-              }}
-            />
-          </div>
-          <div>
-            <img
-              alt="labic"
-              src={ifsLogoSolo}
-              style={{
-                height: '80px',
+            }}
+          />
+        </div>
+        <div>
+          <img
+            alt="labic"
+            src={ifsLogoSolo}
+            className='ifsLogoSolo'
 
-              }}
-            />
-          </div>
-          <div>
-            <img
-              alt="labic"
-              src={labic}
-              style={{
-                height: '110px',
-
-              }}
-            />
-          </div>
-          <div>
-            <img
-              alt="dinoveLogo"
-              src={dinoveFooter}
-              style={{
-                height: '80px',
-
-              }}
-            />
-          </div>
+          />
+        </div>
+        <div>
+          <img
+            alt="labic"
+            src={labic}
+            className='huaweiLogoSolo'
+          />
+        </div>
+        <div>
+          <img
+            alt="dinoveLogo"
+            src={dinoveFooter}
+            className='dinoveFooter'
+          />
+        </div>
       </Container>
     </Navbar>
   );
