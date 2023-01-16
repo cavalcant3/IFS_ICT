@@ -7,35 +7,36 @@ import augusto from '../imagens/augusto.jpg';
 import gabriel from '../imagens/gabriel.jpg';
 import joao from '../imagens/joao.jpeg';
 import eddie from '../imagens/eddiePerfil.jpeg'
+import MatheusCavalcante from '../imagens/MatheusCavalcante.jpg'
 function ProfessoresEbolsistas() {
 
     return (
         <div id="background" style={{ paddingTop: '70px', paddingBottom: '70px', backgroundColor: '#f6f6f6' }}>
             <h2 style={{ textAlign: 'center' }}><strong>Professores</strong></h2>
             <div className="containerCardProfile">
-                <div className="colum33" style={{}}>
+                <div className="colum33" >
                     <CardProfile
-                        name="Stephanie"
+                        name="Stephanie Kamarry"
                         profileImageUrl={Step}
-                        bio="Professor2 geral" />
+                        bio="Professora no Instituto Federal de Sergipe" />
                 </div>
                 <div className="colum33">
                     <CardProfile
-                        name="Catuxe"
+                        name="Catuxe Oliveira"
                         profileImageUrl={catuxe}
-                        bio="Professor2 geral" />
+                        bio="Professora no Instituto Federal de Sergipe" />
                 </div>
                 <div className="colum33">
                     <CardProfile
                         name="Ituan Eduão"
                         profileImageUrl={ItuanEduao}
-                        bio="Professor2 geral" />
+                        bio="Professor no Instituto Federal de Sergipe" />
                 </div>
                 <div className="colum33" style={{}}>
                     <CardProfile
-                        name="Augusto"
+                        name="Augusto Andrade"
                         profileImageUrl={augusto}
-                        bio="Professor2 geral" />
+                        bio="Professor no Instituto Federal de Sergipe" />
                 </div>
 
             </div>
@@ -44,7 +45,7 @@ function ProfessoresEbolsistas() {
                 <div className="colum33">
                     <CardProfile
                         name="Matheus Cavalcante"
-                        profileImageUrl={gabriel}
+                        profileImageUrl={MatheusCavalcante}
                         bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
                 <div className="colum33">
@@ -55,13 +56,13 @@ function ProfessoresEbolsistas() {
                 </div>
                 <div className="colum33">
                     <CardProfile
-                        name="João"
+                        name="João Antonio"
                         profileImageUrl={joao}
                         bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
                 <div className="colum33">
                     <CardProfile
-                        name="Eddie"
+                        name="Eddie Fernandes"
                         profileImageUrl={eddie}
                         bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
