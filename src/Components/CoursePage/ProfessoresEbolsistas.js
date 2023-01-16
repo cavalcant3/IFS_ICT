@@ -14,12 +14,7 @@ function ProfessoresEbolsistas() {
         <div id="background" style={{ paddingTop: '70px', paddingBottom: '70px', backgroundColor: '#f6f6f6' }}>
             <h2 style={{ textAlign: 'center' }}><strong>Professores</strong></h2>
             <div className="containerCardProfile">
-                <div className="colum33" >
-                    <CardProfile
-                        name="Stephanie Kamarry"
-                        profileImageUrl={Step}
-                        bio="Professora no Instituto Federal de Sergipe" />
-                </div>
+                
                 <div className="colum33">
                     <CardProfile
                         name="Catuxe Oliveira"
