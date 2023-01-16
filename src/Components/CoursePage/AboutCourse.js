@@ -10,7 +10,7 @@ function AboutCourse() {
         <div className='ContainerTabs'>
             <Tabs
                 defaultActiveKey="profile"
-                id="justify-tab-example"
+                id="uncontrolled-tab-example"
                 className="nav-justified"
                 fill
                 style={{}}
