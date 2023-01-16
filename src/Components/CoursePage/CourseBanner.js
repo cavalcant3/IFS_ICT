@@ -1,4 +1,4 @@
-import './CourseBanner.css'
+import '../CoursePage/CourseBanner.css'
 import inteligenciaCard from '../imagens/inteligenciaCard.jpg'
 import Button from 'react-bootstrap/Button'
 import AboutCourse from './AboutCourse'
@@ -7,7 +7,6 @@ function CourseBanner() {
     <section>
       <div className="Banner">
         <div className="Container">
-          {/*Ou certificação?*/}
           <h1 className="titulo" style={{ fontSize: '35px' }}>Inteligência Artificial </h1>
         </div>
       </div>
@@ -15,7 +14,7 @@ function CourseBanner() {
       <div className='Containerr'>
         <div className='containerAboutCourse' style={{}}>
           {/**Ajustar tamanho da imagem */}
-          <img src={inteligenciaCard} alt="Description of image" style={{ marginRight: '10px', marginLeft: '10px', width: '400px', height: '200px', marginTop: '90px' }} />
+          <img className='inteligenciaCard' src={inteligenciaCard} alt="Description of image" style={{ }}  />
           <span style={{ paddingLeft: '20px' }}>
             <h2 style={{ paddingTop: '70px' }}>Huawei ICT Academy HCIA - Inteligência Artificial</h2>
 
