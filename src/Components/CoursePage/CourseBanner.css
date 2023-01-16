@@ -35,6 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
    
     
     padding-left: 150px;
@@ -49,4 +50,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  @media screen and (max-width: 1030px) {
+    /*definir classname para os parágrafos do containerAboutCourse*/
+    /* diminuir width dos parágrafos e organizar estilização no css*/
+    
   }
