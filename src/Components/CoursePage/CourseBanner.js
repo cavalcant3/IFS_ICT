@@ -14,18 +14,19 @@ function CourseBanner() {
 
       <div className='Containerr'>
         <div className='containerAboutCourse' style={{}}>
-          <img src={inteligenciaCard} alt="Description of image" style={{ marginRight: '10px', marginLeft: '10px', width: '500px', height: '300px', marginTop: '90px' }} />
+          {/**Ajustar tamanho da imagem */}
+          <img src={inteligenciaCard} alt="Description of image" style={{ marginRight: '10px', marginLeft: '10px', width: '400px', height: '200px', marginTop: '90px' }} />
           <span style={{ paddingLeft: '20px' }}>
             <h2 style={{ paddingTop: '70px' }}>Huawei ICT Academy HCIA - Inteligência Artificial</h2>
 
             <span >
-              <p style={{ color: '#a2a2a2', display: 'block', marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px', textAlign: 'justify', width: '750px' }}>
+              <p style={{ color: '#a2a2a2', display: 'block', marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px', textAlign: 'justify', width: '550px' }}>
                 Inteligência Artificial (IA) é uma nova ciência técnica para a pesquisa e desenvolvimento de teorias, métodos, tecnologias e sistemas de aplicação para simular
                 e estender a inteligência humana. A inteligência artificial é um ramo da ciência da computação. Ele tenta compreender a essência da inteligência e produzir uma nova máquina inteligente
                 que pode responder de maneira semelhante à inteligência humana. A pesquisa neste campo inclui robótica, reconhecimento de linguagem, reconhecimento de imagem,
                 processamento de linguagem natural e sistemas especialistas.
               </p>
-              <p style={{ color: '#a2a2a2', display: 'block', marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px', textAlign: 'justify', width: '750px' }}>
+              <p style={{ color: '#a2a2a2', display: 'block', marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px', textAlign: 'justify', width: '550px' }}>
                 <strong>*Verificar datas de inscrição</strong>
               </p>
               <br />
@@ -33,9 +34,7 @@ function CourseBanner() {
             </span>
           </span>
         </div>
-        <div className='outroComponente'>
-          <AboutCourse />
-        </div>
+        
       </div>
 
     </section>
