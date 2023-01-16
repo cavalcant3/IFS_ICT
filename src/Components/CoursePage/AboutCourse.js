@@ -7,11 +7,11 @@ import './AboutCourse.css'
 function AboutCourse() {
     {/* Tela de abas para informações dos cursos */}
     return (
-        <div style={{marginLeft: '220px', marginRight: '220px' }}>
+        <div className='ContainerTabs'>
             <Tabs
                 defaultActiveKey="profile"
-                id="uncontrolled-tab-example"
-                className="mb-3"
+                id="justify-tab-example"
+                className="nav-justified"
                 fill
                 style={{}}
 
