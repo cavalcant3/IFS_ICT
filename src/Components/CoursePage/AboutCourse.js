@@ -2,7 +2,7 @@
 import { Tab, Tabs } from 'react-bootstrap';
 import DescriptionComponent from './DescriptionComponent'
 import AditionalInformation from './AditionalInformation'
-import './AboutCourse.css'
+import '../CoursePage/AboutCourse.css'
 
 function AboutCourse() {
     {/* Tela de abas para informações dos cursos */}
