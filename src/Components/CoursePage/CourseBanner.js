@@ -13,7 +13,6 @@ function CourseBanner() {
 
       <div className='Containerr'>
         <div className='containerAboutCourse' style={{}}>
-          {/**Ajustar tamanho da imagem */}
           <img className='inteligenciaCard' src={inteligenciaCard} alt="Description of image" style={{}} />
           <span className='containerTextos'>
             <h2 style={{ paddingTop: '70px' }}>Huawei ICT Academy HCIA - Inteligência Artificial</h2>

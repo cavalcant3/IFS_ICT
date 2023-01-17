@@ -107,23 +107,8 @@
   }
 }
 
-@media screen and (max-width: 380px) {
-  .inteligenciaCard{
-    width: 100%;
-    height: 300px;
-  }
 
-  .textCourseB{
-    width: 300px;
-    align-items: center;
-    
-  }
-h2{
-  padding: 0px;
-}
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 390px) {
   .textCourseB{
     width: 280px;
   }
