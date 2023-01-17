@@ -2,6 +2,7 @@
 import { Tab, Tabs } from 'react-bootstrap';
 import DescriptionComponent from './DescriptionComponent'
 import AditionalInformation from './AditionalInformation'
+import Resultados from './Resultados'
 import '../CoursePage/AboutCourse.css'
 
 function AboutCourse() {
@@ -100,8 +101,8 @@ function AboutCourse() {
                 <Tab eventKey="resultados" title="Resultados">
                     <div style={{}}>
                         {/**FALTA ORGANIZAR OS RESULTADOS */}
-                        <p >No curso são abordados os temas relacionados à Inteligência Artificial, Aprendizado de Máquinas, Aprendizado Profundo,
-                            frameworks para aprendizado profundo, PyTorch, TensorFlow, Mindspore, Arquitetura Ascend, plataforma Open AI e Huawei Cloud.</p>
+                        
+                        <Resultados />
                     </div>
                 </Tab>
 

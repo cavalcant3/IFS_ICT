@@ -28,7 +28,7 @@ function App() {
       
       <Route path="*" element={<ErrorPage />} />
 
-      <Route path="/testando" element={<ErrorPage />} />
+      <Route path="/testando" element={<AditionalInformation />} />
     </Routes>
 
   );
