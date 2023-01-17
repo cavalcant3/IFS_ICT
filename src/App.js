@@ -11,6 +11,7 @@ import ProfessoresEbolsistas from './Components/CoursePage/ProfessoresEbolsistas
 import MatriculasAbertas from './Components/CoursePage/MatriculasAbertas';
 import AditionalInformation from './Components/CoursePage/AditionalInformation';
 import DescriptionComponent from "./Components/CoursePage/DescriptionComponent";
+import ErrorPage from './Components/ErrorPage';
 {/*<MatriculasAbertas />,*/ }
 function App() {
   return (
@@ -24,10 +25,10 @@ function App() {
       <CourseBanner />, <AboutCourse />,
       <ProfessoresEbolsistas />,
       <Footer />]} />
+      
+      <Route path="*" element={<ErrorPage />} />
 
-      <Route path="/testando" element={[<Header />,<CourseBanner />,<AboutCourse />,<ProfessoresEbolsistas />, <Footer />]}>
-
-      </Route>
+      <Route path="/testando" element={<ErrorPage />} />
     </Routes>
 
   );
