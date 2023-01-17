@@ -3,14 +3,55 @@
 #uncontrolled-tab-example-tab-resultados {
     color: black;
     font-weight: 500;
-   /* margin: 0;*/
+    /* margin: 0;*/
 }
 
 body::-webkit-scrollbar {
     width: 0.1px;
-    height:0.1px;
+    height: 0.1px;
 }
 
+
+.DescriptionComponent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.secaoo p {
+    float: left;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #a2a2a2;
+    width: 400px;
+
+}
+
+@media screen and (max-width: 960px) {
+    .DescriptionComponent {
+        width: 450px;
+
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .DescriptionComponent {
+        width: 300px;
+    }
+
+    .secaoo p{
+        width: 300px;
+        margin-left: 5px;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+}
 
 /*
 body::-webkit-scrollbar {
