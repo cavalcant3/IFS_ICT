@@ -52,7 +52,7 @@
         object-position: bottom;
     }
     .TestandoAqui{
-        width: 110%;
+        width: 100%;
     }
 
 }
@@ -68,8 +68,11 @@
 
 
     }
+    .dinoveFooter{
+        height: 50px;
+    }
     .TestandoAqui{
-        width: 110%;
+        width: 100%;
     }
     
 

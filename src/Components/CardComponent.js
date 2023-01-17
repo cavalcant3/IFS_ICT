@@ -19,9 +19,9 @@ function CardComponent() {
                         <Card.Img alt="picture of course" variant='top' src="https://www.totvs.com/wp-content/uploads/2019/06/o-que-e-inteligencia-artificial.jpg" />
                         <Card.Body>
                             <Card.Title>Inteligência Artificial</Card.Title>
-                            <Card.Text>
+                            
                                 <i style={{ color: '#a2a2a2' }}>Inteligência Artificial (IA) é uma nova ciência técnica para a pesquisa...</i>
-                            </Card.Text>
+                            
                         </Card.Body>
 
                         <Card.Body>

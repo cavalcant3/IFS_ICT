@@ -22,10 +22,17 @@
         margin-left: 12px;
         
     }
+    
+
+}
+
+@media screen and (max-width: 330px) {
+    .LogoNavbar{
+        margin-left: 5px;
+    }
+
     .navbarrr{
-        margin-left: 30px;
+        margin-left: 15px;
     }
-    #collasible-nav-dropdown{
-        
-    }
+
 }

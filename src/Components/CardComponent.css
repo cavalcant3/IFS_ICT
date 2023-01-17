@@ -27,11 +27,11 @@
 
 @media screen and (max-width: 330px) {
     .IntroductionLegend{
-         width: 300px;
-        font-size: 14px;
+         width: 280px;
+        font-size: 13px;
     }
     .ContainerCardCourse{
-        width: 110%;
+        width: 100%;
     }
     
 }

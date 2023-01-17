@@ -53,11 +53,23 @@
 }
 
 .inteligenciaCard {
-    width: 600px;
-    height: 400px;
-
+  width: 90%;
+  height: 400px;
+  margin-top: 60px;
+  object-fit: cover;
+  object-position: bottom;
 }
-
+.textCourseB{
+  
+  color: #a2a2a2;
+  display: block;
+ text-align: justify;
+ width: 550px;
+}
+.containerTextos{
+  padding-left: 20px;
+  
+}
 @media screen and (max-width: 1030px) {
   .containerAboutCourse {
     flex-wrap: wrap;
@@ -67,4 +79,53 @@
   /*definir classname para os parágrafos do containerAboutCourse*/
   /* diminuir width dos parágrafos e organizar estilização no css*/
 
+}
+@media screen and (max-width: 770px) {
+  .inteligenciaCard{
+    width: 100%;
+    height: 400px;
+  }
+  .textCourseB{
+    width: 490px;
+  }
+
+}
+@media screen and (max-width: 430px) {
+  .inteligenciaCard{
+    width: 100%;
+    height: 300px;
+  }
+  .textCourseB{
+    width: 380px;
+    align-items: center;
+    
+  }
+  .containerAboutCourse{
+
+    padding:0px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .inteligenciaCard{
+    width: 100%;
+    height: 300px;
+  }
+
+  .textCourseB{
+    width: 300px;
+    align-items: center;
+    
+  }
+h2{
+  padding: 0px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .textCourseB{
+    width: 280px;
+  }
+  
 }
