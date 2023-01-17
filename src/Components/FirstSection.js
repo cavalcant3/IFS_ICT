@@ -25,7 +25,7 @@ function FirstSection() {
           <p>O Instituto Federal de Educação Ciência e Tecnologia de Sergipe (IFS), em parceria com Huawei,
              está ofertando um curso online
              com o objetivo de preparar alunos e profissionais na área de Inteligência Artificial.</p>
-             <div style={{marginTop:'5%', fontSize:'13px', fontWeight: '1.6'}}>saiba mais</div>
+             <div style={{marginTop:'1rem', fontSize:'13px', fontWeight: '1.6'}}>saiba mais</div>
              <i> <img  style={{width: '17px'}} src={angle}/></i>
         </div>
       
