@@ -24,20 +24,12 @@
   position: relative;
 }
 
-.text-on-image {
-  position: absolute !important;
-  right: 50% !important;
-  left: 50% !important;
-  bottom: 15%;
-}
+
 
 .containerAboutCourse {
   display: flex;
   align-items: center;
   justify-content: center;
-
-
-
   padding-left: 150px;
   padding-right: 100px;
   padding-top: 80px;
@@ -59,17 +51,20 @@
   object-fit: cover;
   object-position: bottom;
 }
-.textCourseB{
-  
+
+.textCourseB {
+
   color: #a2a2a2;
   display: block;
- text-align: justify;
- width: 550px;
+  text-align: justify;
+  width: 550px;
 }
-.containerTextos{
+
+.containerTextos {
   padding-left: 20px;
-  
+
 }
+
 @media screen and (max-width: 1030px) {
   .containerAboutCourse {
     flex-wrap: wrap;
@@ -80,72 +75,196 @@
   /* diminuir width dos parágrafos e organizar estilização no css*/
 
 }
+
 @media screen and (max-width: 1238px) {
-  .inteligenciaCard{
+  .inteligenciaCard {
     width: 100%;
     height: 400px;
   }
-    .textCourseB{
+
+  .textCourseB {
     width: 490px;
   }
 
 }
+
+@media screen and (max-width: 1200px) {
+  .Containerr {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .containerAboutCourse {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+}
+
+
 @media screen and (max-width: 1180px) {
-  .inteligenciaCard{
+  .inteligenciaCard {
     width: 100%;
     height: 400px;
   }
-  .textCourseB{
+
+  .textCourseB {
     width: 490px;
   }
 }
-@media screen and (max-width: 770px) {
+
+@media screen and (max-width: 740px) {
+
+  .containerAboutCourse {
+    padding-left: 90px;
+    padding-right: 70px;
+  }
+
+
+}
+@media screen and (max-width: 730px) {
+
+  .containerAboutCourse {
+    padding-left: 60px;
+    padding-right: 40px;
+  }
+
+
+}
+@media screen and (max-width: 720px) {
   .inteligenciaCard{
+     object-position:left;
+     width: 400px;
+     height: 400px;
+
+  }
+  .containerAboutCourse {
+    padding-left: 0px;
+    padding-right: 00px;
+  }
+  .containerTextos h2{
+    padding-left: 0px;
+    width: 300px;
+  }
+
+  .containerTextos p{
+    padding-left: 0px;
+    width: 400px;
+  }
+
+}
+
+@media screen and (max-width: 645px) {
+  .inteligenciaCard {
+    padding-top: 70px;
     width: 100%;
-    height: 400px;
+    height: 300px;
   }
-  .textCourseB{
-    width: 490px;
+
+  .textCourseB {
+    width: 380px;
+    padding-left: 0px;
+
   }
+
+  .containerAboutCourse {
+
+    padding: 0px;
+    align-items: center;
+  }
+
+}
+@media screen and (max-width: 635px) {
+  .inteligenciaCard {
+    width: 100%;
+    height: 300px;
+  }
+
+  .textCourseB {
+    width: 380px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    padding-left: 0px;
+    display:initial;
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .containerAboutCourse {
+    padding-left: 100px;
+    padding-right: 80px;
+  }
+
 
 }
 
 @media screen and (max-width: 430px) {
-  .inteligenciaCard{
+  .inteligenciaCard {
     width: 100%;
     height: 300px;
   }
-  .textCourseB{
-    width: 380px;
+
+  .textCourseB {
+    width: 280px;
     align-items: center;
     padding-left: 0px;
-    
-  }
-  .containerAboutCourse{
 
-    padding:0px;
+  }
+
+  .containerAboutCourse {
+
+    padding: 0px;
     align-items: center;
   }
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 400px) {
-  .textCourseB{
+  .textCourseB {
     padding-left: 0px;
     width: 350px;
   }
-  .containerAboutCourse{
 
-    padding-left:0px;
+  .containerAboutCourse {
+
+    padding-left: 0px;
     align-items: center;
   }
-  .containerTextos h2{
+
+  .containerTextos h2 {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width:320px){
-  .textCourseB{
+@media screen and (max-width:490px) {
+  
+.textCourseB {
+
+  color: #a2a2a2;
+  display:initial;
+  text-align: justify;
+  width: 550px;
+}
+}
+
+@media screen and (max-width:310px) {
+  .inteligenciaCard{
+    width: 280px;
+  }
+  .containerTextos{
+    width: 200px;
+  }
+  .containerTextos h2{
+    font-size: 14px;
+    width: 200px;
+  }
+  .textCourseB {
     padding-left: 0px;
     width: 290px;
   }

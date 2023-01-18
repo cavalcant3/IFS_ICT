@@ -8,7 +8,7 @@ function Coordination(params) {
 
                 
                 <CardProfile
-                    name="Stephany Kamarry"
+                    name="Stephanie Kamarry"
                     profileImageUrl={Step}
                     bio="Coordenadora geral" />
 
