@@ -43,8 +43,7 @@ function Header() {
             </NavDropdown>
             <Nav.Link href="mailto:email@gmail.com" style={{ color: '#ffff' }}>Contato</Nav.Link>
             <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>
-              <Button variant="success" style={{backgroundColor:'#269238', marginTop:'-6px'}}>Inscreva-se</Button>{' '}
-
+              <Button variant="success" style={{backgroundColor:'#269238'}}>Inscreva-se</Button>{' '}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

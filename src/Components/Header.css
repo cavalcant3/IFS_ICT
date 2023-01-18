@@ -12,6 +12,10 @@
     height: 50px;
 }
 
+.navbarrr {
+    align-items: center;
+}
+
 @media screen and (max-width: 430px) {
     .LogoNavbar {
         display: flex;
@@ -26,7 +30,7 @@
 
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 330) {
     .LogoNavbar{
         margin-left: 5px;
     }
