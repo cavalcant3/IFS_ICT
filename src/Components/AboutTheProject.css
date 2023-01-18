@@ -107,3 +107,21 @@ ul {
     
   }
 }
+
+@media screen and (max-width: 220px) {
+ 
+  .ContainerAboutTheProject h2{
+    margin-left: 5px;
+  }
+ 
+  p{
+    margin-left: 5px;
+    width: 150px;
+    
+  }
+
+  .Requisitos{
+    margin-left: 5px;
+    width: 150px;
+  }
+}

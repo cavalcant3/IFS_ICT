@@ -96,3 +96,16 @@ video {
 
 
 }
+@media screen and (max-width: 220px) {
+    .content h1 {
+        font-size: 20px;
+        
+       
+    }
+
+    .content p{
+        font-size: 12px;
+        width: 150px;
+    
+    }
+}

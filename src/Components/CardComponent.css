@@ -47,5 +47,21 @@
     #sld{
         width: 16rem
     }
+    .IntroductionLegend{
+        width: 150px;
+        margin-left: 50px;
+    }
 }
 
+@media screen and (max-width: 220px) {
+
+    #sld{
+        width: 10rem
+
+    }
+    .IntroductionLegend{
+        width: 150px;
+        margin-left: 20px;
+    }
+   
+}

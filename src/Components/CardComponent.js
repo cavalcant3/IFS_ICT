@@ -20,7 +20,7 @@ function CardComponent() {
                         <Card.Body>
                             <Card.Title>Inteligência Artificial</Card.Title>
                             
-                                <i style={{ color: '#a2a2a2' }}>Inteligência Artificial (IA) é uma nova ciência técnica para a pesquisa...</i>
+                                <i className='legend' style={{ color: '#a2a2a2' }}>Inteligência Artificial (IA) é uma nova ciência técnica para a pesquisa...</i>
                             
                         </Card.Body>
 

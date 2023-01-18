@@ -30,6 +30,15 @@
 
 }
 
+@media screen and (max-width: 540px) {
+    .LogoNavbar {
+
+        height: 35px;
+ 
+        
+    }
+}
+
 @media screen and (max-width: 330) {
     .LogoNavbar{
         margin-left: 5px;

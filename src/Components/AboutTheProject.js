@@ -28,7 +28,7 @@ function aboutTheProject() {
           <br/>
           
         </span>
-        <div>
+        <div className='Requisitos'>
           <h2><strong>Requisitos:</strong></h2>
 
           <ul >

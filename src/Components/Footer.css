@@ -96,3 +96,22 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 220px) {
+    .huaweiLogoSolo {
+        height: 40px;
+
+    }
+
+    .ifsLogoSolo {
+        height: 40px;
+
+
+    }
+    .dinoveFooter{
+        height: 30px;
+    }
+    .TestandoAqui{
+        width: 100%;
+    }
+}
