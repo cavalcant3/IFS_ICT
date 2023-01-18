@@ -15,21 +15,28 @@ import ErrorPage from './Components/ErrorPage';
 {/*<MatriculasAbertas />,*/ }
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={[<Header />,
-      <FirstSection />, <AboutTheProject />,
-      <CardComponent />, <Coordination />,
-      <Footer />]} />
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <FirstSection />
+            <AboutTheProject />
+            <CardComponent />
+            <Coordination />,
+          </>
+        } />
 
-      <Route path="/cursos" element={[<Header />,
-      <CourseBanner />, <AboutCourse />,
-      <ProfessoresEbolsistas />,
-      <Footer />]} />
-      
-      <Route path="*" element={<ErrorPage />} />
+        <Route path="/cursos" element={[
+          <CourseBanner />, <AboutCourse />,
+          <ProfessoresEbolsistas />]} />
 
-      <Route path="/testando" element={<AditionalInformation />} />
-    </Routes>
+        <Route path="*" element={<ErrorPage />} />
+
+        <Route path="/testando" element={<AditionalInformation />} />
+      </Routes>
+      <Footer />
+    </>
 
   );
 }
