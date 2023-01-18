@@ -44,7 +44,7 @@ video {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
     .content h1 {
         font-size: 30px;
        
