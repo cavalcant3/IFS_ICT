@@ -34,3 +34,11 @@
   text-align: center;
   color:  rgb(162, 162, 162);
 }
+
+
+@media screen and (max-width: 280px) {
+
+  .CardProfile{
+      width: 16rem
+  }
+}

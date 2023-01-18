@@ -15,7 +15,7 @@ function CardComponent() {
                 <p className='IntroductionLegend' style={{  }}><i>Conheça mais dos cursos oferecidos,
                     professores ministrantes, bolsistas, o cronograma das aulas e datas de inscrições.</i></p>
                 <div className='cardCarrossel' style={{ display: 'flex', justifyContent: 'center' }}>
-                    <Card id="sld" style={{ width: '18rem' }}>
+                    <Card id="sld" style={{  }}>
                         <Card.Img alt="picture of course" variant='top' src="https://www.totvs.com/wp-content/uploads/2019/06/o-que-e-inteligencia-artificial.jpg" />
                         <Card.Body>
                             <Card.Title>Inteligência Artificial</Card.Title>

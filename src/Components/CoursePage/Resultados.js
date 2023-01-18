@@ -13,4 +13,4 @@ function Resultados() {
     );
 }
 
-export default Resultados;
+export default Resultados;  

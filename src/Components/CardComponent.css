@@ -25,6 +25,10 @@
     
 }
 
+#sld{
+    width: 18rem
+}
+
 @media screen and (max-width: 330px) {
     .IntroductionLegend{
          width: 280px;
@@ -33,6 +37,15 @@
     .ContainerCardCourse{
         width: 100%;
     }
+
+
     
+}
+
+@media screen and (max-width: 280px) {
+
+    #sld{
+        width: 16rem
+    }
 }
 

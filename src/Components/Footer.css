@@ -36,7 +36,7 @@
 
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 440px) {
     .dinoveFooter {
         height: 60px;
         object-position: bottom;
@@ -57,7 +57,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .huaweiLogoSolo {
         height: 70px;
 
@@ -77,4 +77,22 @@
     
 
 
+}
+@media screen and (max-width: 280px) {
+    .huaweiLogoSolo {
+        height: 50px;
+
+    }
+
+    .ifsLogoSolo {
+        height: 50px;
+
+
+    }
+    .dinoveFooter{
+        height: 40px;
+    }
+    .TestandoAqui{
+        width: 100%;
+    }
 }

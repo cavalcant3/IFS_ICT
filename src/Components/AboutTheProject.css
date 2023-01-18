@@ -35,7 +35,11 @@ ul {
   position: relative;
   margin-right: 3px;
 }
-
+@media screen and (max-width: 1168px) {
+  p {
+    width: 550px;
+  }
+}
 
 
 @media screen and (max-width: 1025px) {
@@ -49,7 +53,22 @@ ul {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 520px) {
+  p {
+    width: 50px;
+
+  }
+}
+
+@media screen and (max-width: 612px) {
+  p {
+    padding: 0;
+    width: 450px;
+
+  }
+}
+
+@media screen and (max-width: 460px) {
   .ImagemCursoCard {
     display: none;
   }
@@ -75,4 +94,16 @@ ul {
     
   }
 
+}
+
+@media screen and (max-width: 280px) {
+  p{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 250px;
+    
+  }
 }
