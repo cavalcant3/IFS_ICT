@@ -43,7 +43,8 @@ function Header() {
             </NavDropdown>
             <Nav.Link href="mailto:email@gmail.com" style={{ color: '#ffff' }}>Contato</Nav.Link>
             <Nav.Link href="#deets" class="btn btn-success" style={{ color: '#ffff' }}>
-              <Button variant="success" style={{backgroundColor:'#269238'}}>Inscreva-se</Button>{' '}
+              <Button variant="success" href='https://docs.google.com/forms/d/e/1FAIpQLSeEaoSsZUUopMr_K8s8le5pS292K7tweMQ4W0nB5HtWHmi94g/viewform' 
+               style={{backgroundColor:'#269238'}}>Inscreva-se</Button>{' '}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

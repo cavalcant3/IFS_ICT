@@ -28,7 +28,7 @@ function CourseBanner() {
               <strong>*Verificar datas de inscrição</strong>
             </p>
             <br />
-            <Button variant="btn-primary" style={{ textAlign: 'center', borderColor: '#269238', backgroundColor: '#269238', fontSize: '14px', color: '#ffff', fontWeight: 'bold', border: '1px solid #fff', padding: '13px 40px', textTransform: 'capitalize' }}>INSCREVA-SE</Button>
+            <Button variant="btn-primary" href='https://docs.google.com/forms/d/e/1FAIpQLSeEaoSsZUUopMr_K8s8le5pS292K7tweMQ4W0nB5HtWHmi94g/viewform' style={{ textAlign: 'center', borderColor: '#269238', backgroundColor: '#269238', fontSize: '14px', color: '#ffff', fontWeight: 'bold', border: '1px solid #fff', padding: '13px 40px', textTransform: 'capitalize' }}>INSCREVA-SE</Button>
 
           </span>
         </div>
