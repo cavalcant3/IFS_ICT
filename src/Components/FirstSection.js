@@ -23,7 +23,7 @@ function FirstSection() {
         <div className='content'>
           <h1>Huawei Academy</h1>
           <p>O Instituto Federal de Educação Ciência e Tecnologia de Sergipe (IFS), em parceria com Huawei,
-             está ofertando um curso online
+             está ofertando um curso
              com o objetivo de preparar alunos e profissionais na área de Inteligência Artificial.</p>
              <div style={{marginTop:'1rem', fontSize:'13px', fontWeight: '1.6'}}>saiba mais</div>
              <i> <img  style={{width: '17px'}} src={angle}/></i>
