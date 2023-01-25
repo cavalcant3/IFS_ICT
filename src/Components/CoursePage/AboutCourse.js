@@ -83,8 +83,7 @@ function AboutCourse() {
                         <div className="secaoo">
                             <h3 style={{ fontSize: '18px' }}><strong>Mindspore</strong></h3>
                             <p style={{ }}>
-                                Platforma Open AI da Huawei para Dispositivos Inteligentes
-                                Ecossistema Industrial da IA, Plataforma de IA da Huawei, Desenvolvimento de apps com base na plataforma de IA da Huawei.</p>
+                            Visão Geral, Development Framework, Arquitetura, Principais características, Desenvolvimento e aplicações.</p>
                         </div>
 
                     </div>
