@@ -70,7 +70,7 @@ function AboutCourse() {
                             </p>
                         </div>
                         <div className="secaoo">
-                            <h3 style={{ fontSize: '18px' }}><strong>Platforma Open AI da Huawei<br/> para Dispositivos Inteligentes</strong></h3>
+                            <h3 style={{ fontSize: '18px' }}><strong>Platforma Open AI<br/> da Huawei para Dispositivos Inteligentes</strong></h3>
                             <p style={{  }}>Ecossistema Industrial da IA, Plataforma de IA da Huawei, Desenvolvimento de apps com base na plataforma de IA da Huawei.</p>
                         </div>
                         <div className="secaoo">
