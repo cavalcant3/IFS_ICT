@@ -70,11 +70,8 @@ function AboutCourse() {
                             </p>
                         </div>
                         <div className="secaoo">
-                            <h3 style={{ fontSize: '18px' }}><strong>Inteligência Artificial</strong></h3>
-                            <p style={{  }}>Visão Geral, Introdução ao Colab e revisão
-                                do básico de Python, Campos e Aplicações,
-                                Uso de matrizes com NumPy, Visão Geral de Estratégias da Huawei
-                                para IA, Análise de dados com Pandas, Controvérsias da IA, Visualização de dados com Matplotlib e Seaborn.</p>
+                            <h3 style={{ fontSize: '18px' }}><strong>Platforma Open AI da Huawei para Dispositivos Inteligentes</strong></h3>
+                            <p style={{  }}>Ecossistema Industrial da IA, Plataforma de IA da Huawei, Desenvolvimento de apps com base na plataforma de IA da Huawei.</p>
                         </div>
                         <div className="secaoo">
                             <h3 style={{ fontSize: '18px' }}><strong> Arquitetura Ascend</strong></h3>
