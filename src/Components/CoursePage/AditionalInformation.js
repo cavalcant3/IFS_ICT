@@ -4,27 +4,29 @@ function AditionalInformation() {
     return (
 
         <div className='containerrr'>
-{/**           <div>
+            {/**           <div>
            <p style={{ fontSize: '20px' }}><strong>Informação adicional</strong></p>
            </div> */}
-           <div className='padding' style={{paddingTop:'30px'}}></div>
+            <div className='padding' style={{ paddingTop: '30px' }}></div>
             <center>
-           
+
                 <table>
                     <tr>
 
                         <td className='TitleTable'><strong>Modalidade</strong></td>
-                        <td>100% Online</td>
+                        <td>Híbrida</td>
 
                     </tr>
+
+
 
                     <tr>
                         <td className='TitleTable'><strong>Turno</strong></td>
-                        <td>Segunda a Sexta - Noite</td>
+                        <td>Sábado(Presencial) e Segunda(Remoto): Manhã</td>
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Horários</strong></td>
-                        <td>Webconferência (via Google Meet) das 19:00 - 20:30 (presença online obrigatória)</td>
+                        <td>Sábado: 8h-11h, Segunda: 8h-10h</td>
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Pré-Requisitos</strong></td>
@@ -36,7 +38,7 @@ function AditionalInformation() {
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Requisitos para <br />Voucher</strong></td>
-                        <td>Mooc Exam com pontuação acima de 700 pontos e conclusão
+                        <td>Moock Exam com pontuação acima de 700 pontos e conclusão
                             de curso preparatório fornecido pelo Instituto<br /> Federal de Sergipe.</td>
                     </tr>
                     <tr>
