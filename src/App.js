@@ -12,7 +12,7 @@ import MatriculasAbertas from './Components/CoursePage/MatriculasAbertas';
 import AditionalInformation from './Components/CoursePage/AditionalInformation';
 import DescriptionComponent from "./Components/CoursePage/DescriptionComponent";
 import ErrorPage from './Components/ErrorPage';
-import {Analitics} from '@vercel/analytics';
+
 {/*<MatriculasAbertas />,*/ }
 function App() {
   return (
@@ -25,13 +25,13 @@ function App() {
             <AboutTheProject />
             <CardComponent />
             <Coordination />
-            <Analitics />
+            
           </>
         } />
 
         <Route path="/cursos" element={[
           <CourseBanner />, <AboutCourse />,
-          <ProfessoresEbolsistas />, <Analitics />]} />
+          <ProfessoresEbolsistas />]} />
 
         <Route path="*" element={<ErrorPage />} />
 
