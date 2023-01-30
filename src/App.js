@@ -36,7 +36,7 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
 
         {/**<Route path="/testando" element={[
-          <Footer />]} /> */}
+          <Footer />]} /> */ }
       </Routes>
       <Footer />
     </>
