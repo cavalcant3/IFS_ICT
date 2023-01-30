@@ -7,6 +7,8 @@ import labic from './imagens/labicFooter.jpg'
 import huaweiLogoSolo from './imagens/huaweiLogoSolo.png'
 import ifsLogoSolo from './imagens/ifsLogoSolo.png'
 import dinoveFooter from './imagens/dinoveFooter.png'
+import logoSoftTex from './imagens/logoSoftTex.png'
+import logoMCTI from './imagens/logoMCTI.png'
 import './Footer.css'
 function Header() {
   return (
@@ -40,6 +42,20 @@ function Header() {
             alt="dinoveLogo"
             src={dinoveFooter}
             className='dinoveFooter'
+          />
+        </div>
+        <div>
+          <img
+            alt="logoMCTI"
+            src={logoMCTI}
+            className='logoMCTI'
+          />
+        </div>
+        <div>
+          <img
+            alt="logoSoftTex"
+            src={logoSoftTex}
+            className='logoSoftTex'
           />
         </div>
       </Container>

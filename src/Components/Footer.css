@@ -33,14 +33,20 @@
 .ifsLogoSolo {
     height: 80px;
 }
+.logoMCTI{
+    height: 80px;
+}
 
-
+.logoSoftTex{
+    height: 100px;
+}
 
 @media screen and (max-width: 440px) {
     .dinoveFooter {
         height: 60px;
         object-position: bottom;
     }
+
 
 
 }
@@ -54,6 +60,7 @@
     .TestandoAqui{
         width: 100%;
     }
+
 
 }
 
@@ -95,6 +102,7 @@
     .TestandoAqui{
         width: 100%;
     }
+
 }
 
 @media screen and (max-width: 220px) {
@@ -114,4 +122,5 @@
     .TestandoAqui{
         width: 100%;
     }
+
 }
