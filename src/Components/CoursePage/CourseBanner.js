@@ -25,7 +25,7 @@ function CourseBanner() {
               processamento de linguagem natural e sistemas especialistas.
             </p>
             <p className='textCourseB' style={{}}>
-              <strong>*Verificar datas de inscrição</strong>
+              <strong>Inscrições: 31/01/2023 à 03/03/2023</strong>
             </p>
             <p className='textCourseB' style={{}}>
               <strong>Iniciativa do Ministério da Ciência, Tecnologia e Inovações e Softex no âmbito do Programa MCTI Futuro</strong>

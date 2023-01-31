@@ -94,7 +94,7 @@ function AboutCourse() {
 
                     </div>
                 </Tab>
-                <Tab eventKey="resultados" title="Resultados">
+                <Tab eventKey="resultados" title="Acesse aqui o edital">
                     <div style={{}}>
                         {/**FALTA ORGANIZAR OS RESULTADOS */}
                         
