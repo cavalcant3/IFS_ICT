@@ -1,0 +1,44 @@
+.ContainerFAQ {
+    /*
+    
+    width: 100vw;
+    height: 100vh;
+    */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqComponent {
+    width: 800px;
+}
+
+@media screen and (max-width: 900px) {
+    .ContainerFAQ {}
+
+    .faqComponent {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .faqComponent {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 490px) {
+
+    .faqComponent {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 330px) {
+
+    .faqComponent {
+        width: 250px;
+    }
+}

@@ -12,6 +12,9 @@ import MatriculasAbertas from './Components/CoursePage/MatriculasAbertas';
 import AditionalInformation from './Components/CoursePage/AditionalInformation';
 import DescriptionComponent from "./Components/CoursePage/DescriptionComponent";
 import ErrorPage from './Components/ErrorPage';
+import FAQComponent from './Components/FAQComponent';
+import SelecaoResultado from './Components/SelecaoResultado';
+{/**<SelecaoResultado />, */}
 
 {/*<MatriculasAbertas />,*/ }
 function App() {
@@ -25,18 +28,18 @@ function App() {
             <AboutTheProject />
             <CardComponent />
             <Coordination />
-            
+
           </>
         } />
 
         <Route path="/cursos" element={[
           <CourseBanner />, <AboutCourse />,
+           <FAQComponent />,
           <ProfessoresEbolsistas />]} />
 
         <Route path="*" element={<ErrorPage />} />
 
-        {/**<Route path="/testando" element={[
-          <Footer />]} /> */ }
+        <Route path="/testando" element={<FAQComponent />} />
       </Routes>
       <Footer />
     </>
