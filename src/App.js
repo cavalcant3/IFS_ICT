@@ -13,7 +13,7 @@ import AditionalInformation from './Components/CoursePage/AditionalInformation';
 import DescriptionComponent from "./Components/CoursePage/DescriptionComponent";
 import ErrorPage from './Components/ErrorPage';
 import FAQComponent from './Components/FAQComponent';
-import SelecaoResultado from './Components/SelecaoResultado';
+{/**import SelecaoResultado from './Components/SelecaoResultado'; */}
 {/**<SelecaoResultado />, */}
 
 {/*<MatriculasAbertas />,*/ }
