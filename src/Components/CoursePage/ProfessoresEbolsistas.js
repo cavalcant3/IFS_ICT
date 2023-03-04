@@ -49,12 +49,12 @@ function ProfessoresEbolsistas() {
                         profileImageUrl={gabriel}
                         bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
-                <div className="colum33">
+               {/** <div className="colum33">
                     <CardProfile
                         name="João Antonio"
                         profileImageUrl={joao}
                         bio="Aluno do Instituto Federal de Sergipe" />
-                </div>
+                </div> */}
                 <div className="colum33">
                     <CardProfile
                         name="Eddie Fernandes"
