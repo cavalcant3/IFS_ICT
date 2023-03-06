@@ -22,11 +22,11 @@ function AditionalInformation() {
 
                     <tr>
                         <td className='TitleTable'><strong>Turno</strong></td>
-                        <td>Sábado(Presencial) e Segunda(Remoto): Manhã</td>
+                        <td>Sábado(Presencial) e Quinta(Remoto): Manhã</td>
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Horários</strong></td>
-                        <td>Sábado: 8h-11h, Segunda: 8h-10h</td>
+                        <td>Sábado: 8h-11h, Quinta: 8h-10h</td>
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Pré-Requisitos</strong></td>
