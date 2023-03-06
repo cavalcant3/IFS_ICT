@@ -27,7 +27,7 @@ function SelecaoResultado() {
                         <tbody align="center">
                             <tr>
                                 {/**<th scope="row">1</th> */}
-                                <td>08/02/2021</td>
+                                <td>05/03/2021</td>
                                 <td>001</td>
                                 <td><a class="btn btn-danger" href='https://drive.google.com/file/d/1opPxxSewyXHssOvjO8Q6ZBm3O0WsoFj6/view?usp=sharing'>LISTA DE RESULTADOS</a></td>
                             </tr>
