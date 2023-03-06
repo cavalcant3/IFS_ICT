@@ -13,8 +13,8 @@ import AditionalInformation from './Components/CoursePage/AditionalInformation';
 import DescriptionComponent from "./Components/CoursePage/DescriptionComponent";
 import ErrorPage from './Components/ErrorPage';
 import FAQComponent from './Components/FAQComponent';
-{/**import SelecaoResultado from './Components/SelecaoResultado'; */}
-{/**<SelecaoResultado />, */}
+import SelecaoResultado from './Components/SelecaoResultado';
+
 
 {/*<MatriculasAbertas />,*/ }
 function App() {
@@ -32,8 +32,10 @@ function App() {
           </>
         } />
 
+           
         <Route path="/cursos" element={[
           <CourseBanner />, <AboutCourse />,
+          <SelecaoResultado />,
            <FAQComponent />,
           <ProfessoresEbolsistas />]} />
 

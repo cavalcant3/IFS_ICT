@@ -1,0 +1,30 @@
+.tabelaSelecaoResultado{
+    width: 800px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .tabelaSelecaoResultado {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .tabelaSelecaoResultado {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .tabelaSelecaoResultado {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 330px) {
+
+    .tabelaSelecaoResultado {
+        width: 200px;
+    }
+}
