@@ -30,6 +30,12 @@ function SelecaoResultado() {
                                 <td>05/03/2021</td>
                                 <td>001</td>
                                 <td><a class="btn btn-danger" href='https://drive.google.com/file/d/1opPxxSewyXHssOvjO8Q6ZBm3O0WsoFj6/view?usp=sharing'>LISTA DE RESULTADOS</a></td>
+                            </tr> 
+                            <tr>
+                                {/**<th scope="row">1</th> */}
+                                <td>07/03/2021</td>
+                                <td>001</td>
+                                <td><a class="btn btn-danger" href='https://drive.google.com/file/d/1TpmZ_LGqNXLrsGdsNqb7LgYGJEKYSwo6/view?usp=sharing'>CONVOCAÇÃO DE EXCEDENTES L1</a></td>
                             </tr>
 
                             {/**<tr>
