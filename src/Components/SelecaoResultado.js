@@ -37,6 +37,12 @@ function SelecaoResultado() {
                                 <td>001</td>
                                 <td><a class="btn btn-danger" href='https://drive.google.com/file/d/1TpmZ_LGqNXLrsGdsNqb7LgYGJEKYSwo6/view?usp=sharing'>CONVOCAÇÃO DE EXCEDENTES L1</a></td>
                             </tr>
+                            <tr>
+                                {/**<th scope="row">1</th> */}
+                                <td>08/03/2021</td>
+                                <td>001</td>
+                                <td><a class="btn btn-danger" href='https://drive.google.com/file/d/1pxHwc4fTICn1Tr5dAbJVzrnEwIncgZBE/view?usp=sharing'>CONVOCAÇÃO DE EXCEDENTES L2</a></td>
+                            </tr>
 
                             {/**<tr>
                             <th scope="row">2</th>
