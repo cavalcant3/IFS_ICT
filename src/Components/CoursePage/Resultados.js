@@ -29,7 +29,7 @@ function Resultados() {
                                 {/** <th scope="row">1</th> */}
                                 <td>31/01/2023</td>
                                 <td>001</td>
-                                <td><a class="btn btn-danger" href="https://drive.google.com/file/d/1cGP8wfNJJetcb2DXscgkmXIV_1721SVG/view?usp=sharing">ACESSE O EDITAL</a></td>
+                                <td><a class="btn btn-danger" href="">ACESSE O EDITAL</a></td>
                             </tr>
 
                         </tbody>
