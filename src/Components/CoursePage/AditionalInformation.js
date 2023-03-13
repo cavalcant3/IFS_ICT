@@ -14,7 +14,7 @@ function AditionalInformation() {
                     <tr>
 
                         <td className='TitleTable'><strong>Modalidade</strong></td>
-                        <td>Híbrida</td>
+                        <td>Remota</td>
 
                     </tr>
 
@@ -22,11 +22,11 @@ function AditionalInformation() {
 
                     <tr>
                         <td className='TitleTable'><strong>Turno</strong></td>
-                        <td>Sábado(Presencial) e Quinta(Remoto): Manhã</td>
+                        <td>Sábado(Remoto), Terça(Remoto) Quinta(Remoto)</td>
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Horários</strong></td>
-                        <td>Sábado: 8h-11h, Quinta: 8h-10h</td>
+                        <td>Sábado: 8:00 AM - 12:00 PM, Terça 19:00 PM - 20:00 PM, Quinta: 8:00 AM - 10:00 AM</td>
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Pré-Requisitos</strong></td>
@@ -38,8 +38,7 @@ function AditionalInformation() {
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Requisitos para <br />Voucher</strong></td>
-                        <td>Moock Exam com pontuação acima de 700 pontos e conclusão
-                            de curso preparatório fornecido pelo Instituto<br /> Federal de Sergipe.</td>
+                        <td>Serão selecionados os alunos com as melhores pontuações.<br /></td>
                     </tr>
                     <tr>
                         <td className='TitleTable'><strong>Certificação <br />internacional</strong></td>
