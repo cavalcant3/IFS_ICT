@@ -5,7 +5,7 @@ import catuxe from '../imagens/catuxe.jpg';
 import ItuanEduao from '../imagens/ItuanEduao.jpg';
 import augusto from '../imagens/augusto.jpg';
 import gabriel from '../imagens/gabriel.jpg';
-import joao from '../imagens/joao.jpeg';
+import jovino from '../imagens/jovino.jpg';
 import eddie from '../imagens/eddiePerfil.jpeg'
 import MatheusCavalcante from '../imagens/MatheusCavalcante.jpg'
 function ProfessoresEbolsistas() {
@@ -49,12 +49,12 @@ function ProfessoresEbolsistas() {
                         profileImageUrl={gabriel}
                         bio="Aluno do Instituto Federal de Sergipe" />
                 </div>
-               {/** <div className="colum33">
+               <div className="colum33">
                     <CardProfile
-                        name="João Antonio"
-                        profileImageUrl={joao}
+                        name="Felipe Jovino"
+                        profileImageUrl={jovino}
                         bio="Aluno do Instituto Federal de Sergipe" />
-                </div> */}
+                </div>
                 <div className="colum33">
                     <CardProfile
                         name="Eddie Fernandes"
