@@ -24,9 +24,9 @@ function CourseBanner() {
               que pode responder de maneira semelhante à inteligência humana. A pesquisa neste campo inclui robótica, reconhecimento de linguagem, reconhecimento de imagem,
               processamento de linguagem natural e sistemas especialistas.
             </p>
-            <p className='textCourseB' style={{}}>
+            {/**            <p className='textCourseB' style={{}}>
               <strong>Inscrições: 13/03/2023 à 31/03/2023</strong>
-            </p>
+            </p> */}
             <p className='textCourseB' style={{}}>
               <strong>Iniciativa do Ministério da Ciência, Tecnologia e Inovações e Softex no âmbito do Programa MCTI Futuro</strong>
             </p>
