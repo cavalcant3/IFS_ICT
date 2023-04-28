@@ -35,9 +35,9 @@ function CourseBanner() {
 de 23 de outubro de 1991</strong>
             </p>
             <br />
-            <Button variant="btn-primary" href='' style={{ textAlign: 'center', borderColor: '#269238',
-             backgroundColor: 'grey', fontSize: '14px', color: '#ffff', fontWeight: 'bold', border: '1px solid #fff',
-              padding: '13px 40px', textTransform: 'capitalize' }}>INSCRIÇÕES ENCERRADAS</Button>
+            <Button variant="btn-primary" href='https://docs.google.com/forms/d/e/1FAIpQLSfAD1ScR7IhdLNAGi7wStzh7HqRxEo42ajNOBZArcHtkv-lmA/viewform?usp=sf_link' style={{ textAlign: 'center', borderColor: '#269238',
+             backgroundColor: '#269238', fontSize: '14px', color: '#ffff', fontWeight: 'bold', border: '1px solid #fff',
+              padding: '13px 40px', textTransform: 'capitalize' }}>INSCRIÇÕES ABERTAS</Button>
 
           </span>
         </div>
