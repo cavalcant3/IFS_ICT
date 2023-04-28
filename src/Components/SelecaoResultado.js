@@ -45,6 +45,12 @@ function SelecaoResultado() {
                             </tr>
                             <tr>
                                 {/**<th scope="row">1</th> */}
+                                <td>27/04/2023</td>
+                                <td>001</td>
+                                <td><a class="btn btn-danger" href='https://drive.google.com/file/d/1wd7iYCrS8EtBSXbLLxhbZtZI_fZG9zCY/view?usp=sharing'>APROVADOS TESTE HCIA-AI </a></td>
+                            </tr>
+                            <tr>
+                                {/**<th scope="row">1</th> */}
                                 <td>03/04/2023</td>
                                 <td>002</td>
                                 <td><a class="btn btn-danger" href='https://drive.google.com/file/d/1d67enmwR-Px6SuPshwfI6aUX6s6fMNrY/view?usp=sharing'>LISTA DE RESULTADOS</a></td>
